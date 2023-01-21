@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/formstyles.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/solid.min.css" />
+    <link rel="stylesheet" href="fonts/fontawesome/css/regular.min.css" />
+
+
+</head>
+
+<body>
+    <div class="signup">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div
+                    class=" signup-container px-sm-3 px-md-4 px-lg-5 py-4 shadow-lg align-self-center col-sm-12 col-md-10 col-lg-8 col-xl-6">
+
+                    <a href="/index.html" class="exit-btn"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                    <div class="logo-container text-center">
+                        <img src="./images/logo.png" alt />
+                        <h2 class="mt-4 color">بازیابی رمز</h2>
+                    </div>
+                    <div class="text-center mt-3">
+                        رمز عبور جدید را برای ایمیل <strong> hello@example.com </strong> وارد کنید!
+                    </div>
+                    <div class="form-container">
+                        <form action="" method="POST">
+                            <div class="form-group">
+                                <label class="mb-1"><strong>رمزعبور</strong></label>
+                                <input type="password" class="form-control px-5" id="pass-field" placeholder="رمزعبور">
+                                <i class="fa-solid fa-key"></i>
+                                <div id="pass-error" class="pass-error text-danger fs-6">
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="mb-1"><strong>تکرار رمزعبور</strong></label>
+                                <input type="password" class="form-control  px-5" id="conf-pass-field"
+                                    placeholder=" تکرار رمزعبور">
+                                <i class="fa-solid fa-key"></i>
+                                <div id="conf-pass-error" class="text-danger fs-6">
+
+                                </div>
+                            </div>
+                            <div class="text-center mt-5">
+                                <button type="submit" class="btn btn-primary btn-block">تایید</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="./js/auth-validation.js"></script>
+</body>
+
+</html>

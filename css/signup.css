@@ -1,0 +1,48 @@
+@font-face {
+    font-family: ir_sans;
+    src: url('../fonts/IRANSans.ttf');
+}
+
+.signup {
+    direction: rtl;
+    text-align: right;
+    font-family: ir_sans;
+    height: 100vh;
+    color: #115169;
+}
+
+.signup .container,
+.signup .row {
+    height: 100% !important;
+}
+
+.logo-container h2 {
+    color: inherit;
+}
+
+.signup-container {
+    border-radius: 10px;
+    box-shadow: 3px 5px 50px rgba(32, 145, 189, 0.3) !important;
+}
+
+.form-group {
+    margin-top: 15px;
+}
+
+.form-group input {
+    border-radius: 5px;
+}
+
+.signup button[type="submit"] {
+    width: 100px;
+    background-color: #2091bd;
+    border: none;
+}
+
+.signup button[type="submit"]:hover {
+    background-color: #56bde4;
+}
+
+.signup input[type="number"] {
+    direction: ltr;
+}

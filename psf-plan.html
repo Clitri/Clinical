@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @font-face {
+            font-family: ir_sans;
+            src: url("fonts/IRANSans.ttf");
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            direction: rtl;
+            font-size: 1.1em;
+            font-family: ir_sans;
+        }
+
+        .col-lg-4 {
+            width: 33%;
+            box-sizing: border-box;
+            padding: 5px 10px;
+            float: right;
+        }
+
+        .box {
+            padding: 20px;
+        }
+
+        .box h4 {
+            margin-bottom: 10px;
+        }
+
+        .box::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .mb-3 {
+            margin-bottom: 20px;
+        }
+
+        .mb-1 {
+            margin-bottom: 10px;
+        }
+
+        .pdf-content h2 {
+            padding: 20px;
+        }
+
+        .pagination {
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #2091bd;
+            color: white;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pdf-content">
+
+        <h2 class="mb-1">اطلاعات عمومی طرح</h2>
+        <div class="box">
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <h4>عنوان</h4>
+                    <p>اولین طرح</p>
+                </div>
+
+                <div class=" col-lg-4 mb-3">
+                    <h4>نام اختصاری</h4>
+                    <p>اولین طرح</p>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4>ساختار کارآزمایی </h4>
+                    <div class="input-group">
+                        <p>کوهورت</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4>طراحی مطالعه </h4>
+                    <div class="input-group">
+                        <p>مداخله‌ای</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">روش محاسبه نمونه</h4>
+                    <div class="input-group">
+                        <p>مقایسه میانگین دو جامعه</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">تاریخ شروع</h4>
+                    <div class="input-group">
+                        <p>۱۴۰۱/۰۳/۰۵</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">فایل</h4>
+                    <div class="input-group">
+                        <a href="#">مشاهده فایل پروپوزال</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mb-4">
+        <h2 class="mb-1">اطلاعات تخصصی طرح</h2>
+        <div class="box">
+            <div class="row">
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="firstName">هدف مطالعه</h4>
+                    <p>علوم پایه</p>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4>فاز(مرحله)</h4>
+                    <p>اولین مرحله</p>
+                </div>
+
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">تصادفی‌سازی</h4>
+                    <div class="input-group">
+                        <p>اختصاص تصادفی به گروه مداخله</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">کورسازی</h4>
+                    <div class="input-group">
+                        <p>انجام نشده!</p>
+                    </div>
+                </div>
+
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">سایر مشخصات طراحی</h4>
+                    <div class="input-group">
+                        <p>اولین مشخصه طرح تستی</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">دارونما</h4>
+                    <div class="input-group">
+                        <!-- <input type="checkbox" id="دارونما" value="دارونما" /> -->
+                        فعال
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mb-4">
+        <h2 class="mb-1">اطلاعات شرکت‌کنندگان</h2>
+        <div class="box">
+            <div class="row">
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="firstName">شرایط ورود</h4>
+                    <p>اولین شرط ورود به مداخله</p>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4>شرط عدم ورود</h4>
+                    <p>اولین شرط عدم ورود به مداخله</p>
+                </div>
+
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">تاریخ شروع</h4>
+                    <div class="input-group">
+                        <p>۱۴۰۱/۰۳/۰۵</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4 for="username">تاریخ شروع</h4>
+                    <div class="input-group">
+                        <p>۱۴۰۱/۰۳/۰۵</p>
+                    </div>
+                </div>
+
+                <div class=" col-lg-4 mb-3">
+                    <h4>جنسیت </h4>
+                    <div class="input-group">
+                        <p>مرد</p>
+                    </div>
+                </div>
+                <div class=" col-lg-4 mb-3">
+                    <h4>حداکثر سن </h4>
+                    <div class="input-group">
+                        <p>۱۲ سال</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="pagination">2</div>
+</body>
+
+</html>
