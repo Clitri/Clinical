@@ -1,0 +1,189 @@
+/* ================= edit questionnaire ================= */
+
+
+.modal-btn {
+    color: white !important;
+    background-color: #2091bd;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+#edit_questionnaire .modal-header {
+    background-color: #115169;
+    color: white;
+}
+
+#edit_questionnaire .modal-title {
+    color: white;
+}
+
+#edit_questionnaire .close {
+    color: white;
+}
+
+#edit_questionnaire .modal-content {
+    width: 700px;
+}
+
+#edit_questionnaire label {
+    color: #115169;
+}
+
+#edit_questionnaire .modal-footer button {
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid #115169;
+    padding: 5px;
+}
+
+#edit_questionnaire .modal-footer button[type=submit] {
+    background-color: #115169;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#edit_questionnaire .modal-footer button[type=button] {
+    color: #115169;
+    border-radius: 5px 0 0 5px;
+}
+
+#edit_questionnaire .tag-item {
+    background-color: #115169;
+    display: inline-block;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 8px;
+    margin: 3px 1px;
+}
+
+
+#edit_questionnaire .tag-item i {
+    /* visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s; */
+    cursor: pointer;
+}
+
+/* #edit_questionnaire .tag-item:hover i {
+    visibility: visible;
+    opacity: 1;
+} */
+
+
+@media screen and (max-width: 767px) {
+
+    #edit_questionnaire .modal-content {
+        width: 500px;
+    }
+
+}
+
+/* ============== search questionnaire =============== */
+
+.search-questionnaire {
+    background-color: white;
+    border-radius: 5px;
+}
+
+[data-theme-version="dark"] .search-questionnaire {
+    background-color: #181f39;
+    color: white;
+}
+
+
+.search-questionnaire .global-search h3,
+.search-questionnaire .local-search h3 {
+    border-bottom: 1px solid rgba(24, 31, 57, 0.3);
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.search-questionnaire .global-search input[type=search],
+.search-questionnaire .local-search input[type=search] {
+    border-radius: 10px !important;
+}
+
+.search-questionnaire .global-search>div i.fa-magnifying-glass,
+.search-questionnaire .local-search>div i.fa-magnifying-glass {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    padding-right: 10px;
+    color: #115169;
+    cursor: pointer;
+    border-right: 1px solid;
+}
+
+.search-questionnaire .local-search .local-search-body {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.search-questionnaire .local-search .local-search-body .q_add,
+.search-questionnaire .local-search .local-search-body .q_search {
+    width: 40%;
+    height: 40px;
+}
+
+.search-questionnaire .local-search .local-search-body .q_add {
+    background-color: #115169;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 7px 15px;
+    box-sizing: border-box;
+}
+
+.search-questionnaire .q_datatable {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.search-questionnaire #example3_filter {
+    display: none;
+}
+
+.search-questionnaire #example3_length {
+    display: none;
+}
+
+
+/* ======================= ticket send ==================== */
+
+
+#ticket_send .modal-body {
+    padding: 0;
+}
+
+#ticket_send input[name=subject] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding-right: 55px;
+}
+
+#ticket_send textarea[name=message] {
+    width: 100%;
+    height: 100px;
+    border: none;
+    padding-right: 40px;
+}
+
+#ticket_send .form-group:nth-of-type(1),
+#ticket_send .form-group:nth-of-type(2) {
+    border-bottom: 1px solid rgba(24, 31, 57, 0.1);
+}
+
+#ticket_send .form-group:nth-of-type(2) label {
+    top: 12px;
+}
+
+#ticket_send .form-group label {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
