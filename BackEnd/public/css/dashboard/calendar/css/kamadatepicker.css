@@ -1,0 +1,186 @@
+/*! kamadatepicker - version 1.5.2 */
+
+.bd-hide {
+    display: none;
+}
+
+.bd-table {
+    width: 210px !important;
+}
+
+
+/* .bd-month {
+    font-size: 10px;
+} */
+
+.bd-main {
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    padding: 5px;
+    z-index: 9999;
+    width: auto !important;
+    border-radius: 6px;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bd-calendar {
+    width: 210px;
+    padding: 0;
+    margin: 0;
+}
+
+.bd-calendar table {
+    border: none;
+    width: 210px;
+}
+
+@media (max-width:767px) {
+    .bd-calendar {
+        width: 180px !important;
+    }
+    .bd-calendar table {
+        width: 180px !important;
+    }
+    .bd-title {
+        width: 180px !important;
+    }
+    .bd-empty-cell,
+    .bd-table-days button {
+        width: 25px !important;
+        height: 25px !important;
+    }
+    .bd-dropdown {
+        width: 55px !important;
+    }
+    .bd-goto-today {
+        width: 180px !important;
+    }
+}
+
+.bd-title {
+    width: 210px;
+    padding: 0;
+    margin: 0;
+}
+
+.bd-dropdown {
+    display: inline-block;
+    float: right;
+    width: 75px;
+}
+
+.bd-dropdown select {
+    width: 100%;
+}
+
+.bd-dropdown select,
+.bd-next,
+.bd-prev {
+    height: 46px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.bd-next,
+.bd-prev {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: #fff;
+    width: 30px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: right;
+}
+
+.bd-table thead {
+    background-color: #555;
+    color: #fff;
+}
+
+.bd-table thead tr {
+    height: 30px;
+    cursor: context-menu;
+}
+
+.bd-table thead tr th {
+    text-align: center;
+    padding: 3px 0 !important;
+    background-color: rgb(63, 202, 245);
+    font-size: 14px;
+    font-weight: 100;
+    font-family: is;
+}
+
+.bd-table tbody tr td {
+    border: none;
+    padding: 0;
+}
+
+.bd-empty-cell,
+.bd-table-days button {
+    width: 30px;
+    height: 30px;
+}
+
+.bd-table-days button {
+    background-color: #f8f8f8;
+    border: 0;
+}
+
+.bd-table-days button:hover:enabled {
+    color: #7fabee;
+    font-weight: 700;
+    background-color: #e7e7e7;
+    cursor: pointer;
+}
+
+.bd-table-days button:disabled {
+    background-color: #eee;
+}
+
+.bd-today {
+    background-color: #dff0d8 !important;
+    color: green;
+}
+
+.bd-holiday {
+    background-color: #fde8e8 !important;
+}
+
+.bd-selected-day {
+    color: white;
+    background-color: rgb(20, 60, 240) !important;
+    font-weight: 700;
+}
+
+.bd-goto-today {
+    width: 210px;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(63, 202, 245);
+    padding-top: 3px;
+    cursor: pointer;
+    text-align: center;
+    font-family: is;
+}
+
+.bd-next {
+    background-image: url('../image/prev.png') !important;
+}
+
+.bd-prev {
+    background-image: url('../image/next.png') !important;
+}
+
+@font-face {
+    font-family: "is";
+    src: url('../../font/IRAN\ Sans\ Regular\ \(mmrostami.blog.ir\).ttf');
+}
+
+.bd-next:focus,
+.bd-prev:focus {
+    background-color: #fff !important;
+}
